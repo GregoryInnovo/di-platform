@@ -1,0 +1,79 @@
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  color: white;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.o-experience-container {
+  /* background-color: black; */
+  width: 100%;
+  height: 100vh;
+}
+.o-projects-container {
+  /* background-color: black; */
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+}
+
+video {
+  background-size: cover;
+  object-fit: fill;
+}
+
+h1 {
+  position: absolute;
+  text-align: center;
+}
+
+.home-btn {
+  position: absolute;
+  padding: 1em 1.5em;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: 0;
+  font-size: 18px;
+  margin: 1em 0.8em;
+}
+.home-btn.type3 {
+  color: #ffffff;
+}
+.home-btn.type3.type3::after,
+.home-btn.type3.type3::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  border: 2px solid;
+  transition: all 0.6s ease;
+  border-radius: 2px;
+}
+.home-btn.type3.type3::after {
+  bottom: 0;
+  right: 0;
+  border-color: transparent #ffffff #ffffff transparent;
+}
+.home-btn.type3.type3::before {
+  top: 0;
+  left: 0;
+  border-color: #ffffff transparent transparent #ffffff;
+}
+.home-btn.type3.type3:hover:after,
+.home-btn.type3.type3:hover:before {
+  border-color: #ffffff;
+  width: 100%;
+  height: 100%;
+}

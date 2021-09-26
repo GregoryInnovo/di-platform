@@ -6,13 +6,13 @@ import userIcon from "../assets/static/img/LogoPage.svg";
 
 const Header = () => {
   return (
-    <header class="header">
+    <header className="header">
       <Link to="/">
-        <img class="header__img" src={logo} alt="Imagen page" />
+        <img className="header__img" src={logo} alt="Imagen page" />
       </Link>
 
-      <div class="header__nav">
-        <div class="header__nav--profile">
+      <div className="header__nav">
+        <div className="header__nav--profile">
           <img src={userIcon} alt="Imagen de Perfil" />
 
           <p>Perfil</p>

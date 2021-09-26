@@ -10,25 +10,25 @@ const Login = (props) => {
   
   return (
     <Fragment>
-      <section class="login">
-        <section class="login__container">
+      <section className="login">
+        <section className="login__container">
           <h2>Inicia Sesión</h2>
-          <form class="login__container--form" onSubmit={handleSubmit}>
+          <form className="login__container--form" onSubmit={handleSubmit}>
             <input
               name="email"
-              class="input__login"
+              className="input__login"
               type="text"
               placeholder="Correo"
               onChange={handleSubmit}
             />
             <input
               name="password"
-              class="input__login"
+              className="input__login"
               type="password"
               placeholder="Contraseña"
               onChange={handleSubmit}
             />
-            <button class="button" type="submit">
+            <button className="button" type="submit">
               Iniciar sesión
             </button>
           </form>
