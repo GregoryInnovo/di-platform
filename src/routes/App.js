@@ -5,6 +5,12 @@ import Login from "../containers/Login/Login";
 import NotFound from "../containers/NotFound/NotFound";
 import Layout from "../components/Layout";
 
+/* 
+  función que permite crear todas las rutas de la página:
+  -. Es necesario de traer un componente que desde los containers.
+  -. Si no existe una ruta específica se direcciona al componente NotFound
+*/
+
 function App() {
   return (
     <BrowserRouter>

@@ -2,8 +2,14 @@ import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import "./Login.css";
 
+/*
+  Container que muestra el inicio de sesión
+*/
+
+// TODO: Adaptar el login al diseño de figma
 const Login = (props) => {
   
+  /* Función que no tiene uso aun */
   const handleSubmit = props => {
     props.history.push('/');
   }

@@ -4,6 +4,9 @@ import "../assets/styles/components/Header.css";
 import logo from "../assets/static/img/LogoPage.svg";
 import userIcon from "../assets/static/img/LogoPage.svg";
 
+/* 
+  Componente del header
+*/
 const Header = () => {
   return (
     <header className="header">
