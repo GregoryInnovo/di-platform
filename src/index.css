@@ -1,3 +1,11 @@
+:root {
+  --primary-color: #C11B1B;
+  --secondary-color: #000000;
+  --p-logo: #51C5D3;
+  --s-logo: #146E82;
+  --t-logo: #132C33;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,7 +14,7 @@
 
 html {
   font-size: 62.5%;
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 body {

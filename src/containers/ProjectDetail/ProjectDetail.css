@@ -1,0 +1,100 @@
+.container__project {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 10fr 10fr 10fr;
+  grid-template-areas:
+    "main content1"
+    "main content2"
+    "content3 content3";
+  /* grid-gap: 1.2rem; */
+  /* font-family: var(--main-font); */
+  font-size: 1.2rem;
+}
+
+.container__project--design {
+  background: var(--t-logo);
+  grid-area: main;
+  font-size: 1.2rem;
+  /* padding: 0 3.7rem; */
+  color: black;
+}
+
+.container__project--intro {
+  background: var(--p-logo);
+  grid-area: content1;
+  font-size: 1.2rem;
+  padding: 0 3.7rem;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.container__project--intro__title,
+.container__project--description__title {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.container__project--intro__course,
+.container__project--name__title {
+  color: #C4C4C4;
+}
+
+.container__project--name {
+  background: var(--p-logo);
+  grid-area: content2;
+  font-size: 1.2rem;
+  padding: 0 3.7rem;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.container__project--description {
+  background: var(--s-logo);
+  grid-area: content3;
+  font-size: 1.2rem;
+  padding: 0 2.7rem;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.container__project--content {
+  background: var(--s-logo);
+  grid-area: aside;
+  font-size: 1.2rem;
+  padding: 0 3.7rem;
+  color: black;
+}
+.container__project--comments {
+  background: var(--t-logo);
+  grid-area: comment;
+  font-size: 1.2rem;
+  padding: 0 3.7rem;
+  color: black;
+}
+
+.container__project--comments > p {
+  background: var(--t-logo);
+  font-size: 1.2rem;
+  padding: 0 3.7rem;
+  color: black;
+}
+
+.o-style-sketchFab-1 {
+  font-size: 0.7rem;
+  font-weight: normal;
+  margin: 5px;
+  color: #4a4a4a;
+}
+
+.o-style-sketchFab-2 {
+  font-weight: bold;
+  color: #1caad9;
+}

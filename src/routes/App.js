@@ -5,6 +5,8 @@ import Login from "../containers/Login/Login";
 import NotFound from "../containers/NotFound/NotFound";
 import Layout from "../components/Layout";
 
+import DetailProject from "../containers/ProjectDetail/ProjectDetail";
+
 /* 
   función que permite crear todas las rutas de la página:
   -. Es necesario de traer un componente que desde los containers.
@@ -18,6 +20,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/login" component={Login} />
+          <Route exact path="/detailProject" component={DetailProject} />
           <Route component={NotFound} />
         </Switch>
       </Layout>
